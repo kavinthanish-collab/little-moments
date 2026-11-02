@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.welcome-page {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ffe0ec, #e8dcff, #fff0d9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.welcome-card {
+    width: 100%;
+    max-width: 460px;
+    background: #fffafc;
+    padding: 55px 35px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 15px 45px rgba(160, 100, 140, 0.15);
+    border: 2px solid white;
+}
+
+.welcome-icon {
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.welcome-card h1 {
+    color: #c66b91;
+    font-size: 34px;
+    margin-bottom: 18px;
+}
+
+.welcome-card p {
+    color: #92768c;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.welcome-card button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    background: #e99aba;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.welcome-card button:hover {
+    background: #d77da2;
+    transform: translateY(-2px);
+}
+
+.welcome-footer {
+    margin-top: 30px;
+    color: #c69aaf;
+    font-size: 13px;
+}
+
+.login-input:disabled,
+.welcome-card button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.saved-message {
+    margin-top: 18px;
+    padding: 12px;
+    background: #e5f8e9;
+    color: #398653;
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+}
