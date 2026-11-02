@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import { supabase } from './supabase';
+
 import './styles/Login.css';
 
 const STORAGE_KEY = 'littleMomentsAccounts';
